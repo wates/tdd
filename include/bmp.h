@@ -1,0 +1,6 @@
+
+class BitImage
+{
+public:
+private:
+};

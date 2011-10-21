@@ -159,3 +159,18 @@ TEST(TestTest,BitmapBinary)
 	EXPECT_EQ(2358,sizeof(bmp_data));
 }
 
+class TestBmp
+    :public testing::Test
+{
+    void SetUp()
+    {
+	}
+	void TearDown()
+	{
+	}
+	BitImage image;
+};
+
+TEST_F(TestBmp,Header)
+{
+}
