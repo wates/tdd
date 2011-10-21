@@ -5,7 +5,7 @@ project(Proj)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 link_directories(${CMAKE_CURRENT_SOURCE_DIR}/library)
 
-add_library(alib
+add_library(bitmaplib
     source/bmp.cc
     include/bmp.h
 )

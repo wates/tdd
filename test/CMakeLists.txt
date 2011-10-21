@@ -10,6 +10,6 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR})
 set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR})
 
 add_executable(unit_test unit.cc)
-target_link_libraries(unit_test alib gtest)
+target_link_libraries(unit_test bitmaplib gtest)
 
 
